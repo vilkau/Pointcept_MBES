@@ -13,7 +13,7 @@ model = dict(
     backbone_out_channels=64,
     backbone=dict(
         type="PT-v3m1",
-        in_channels=6, # Featurejen määrä (coord = 3 featurea)
+        in_channels=6, # Featurejen määrä (coord = 3 features)
         order=["z", "z-trans", "hilbert", "hilbert-trans"],
         stride=(2, 2, 2, 2),
         enc_depths=(2, 2, 2, 6, 2),
