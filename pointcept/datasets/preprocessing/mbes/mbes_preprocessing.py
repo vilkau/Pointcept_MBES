@@ -2,8 +2,8 @@ from pathlib import Path
 import numpy as np
 
 
-src_path = Path(r"C:\Users\OWNER\Desktop\ptv3_testi\0_txt")
-dst_path = Path(r"C:\Users\OWNER\Desktop\ptv3_testi\1_npy\train")
+src_path = Path(r"...")
+dst_path = Path(r"...")
 
 for index, point_cloud in enumerate(src_path.glob("*.txt")):
     point_cloud_data = np.loadtxt(point_cloud, delimiter=",")

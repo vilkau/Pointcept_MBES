@@ -1,4 +1,4 @@
-name: pointcept
+name: pointcept_temp
 channels:
   - conda-forge
   - defaults
